@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./salve/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: black;
+    background-position: top center;
+}
+
+body * {
+    font-family: 'inter', serif;
+    line-height: 160%;
+}
+
+header {
+    text-align: center;
+    margin-top: 32px;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572fc 0%, #43E7AD);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+
+}
+
+section h2 {
+
+    letter-spacing: -0.47px;
+}
+
+section p {
+    color: #A1A1AA;
+    letter-spacing: -0.18px;
+}
+
+section ul {
+    display: flex;
+    gap: 16PX;
+    flex-wrap: wrap;
+    margin-top: 24px;
+
+}
+
+section ul li {
+    transition: transform .1s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+.games-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+.canais-list img {
+    width: 70px;
+    border-radius: 999px;
+    border: 1px solid #443e54;
+
+}
+
+.redes-list img {
+    width: 32px;
+
+
+}
+
+header div {
+    animation: fromtop .7s .2s backwards;
+}
+
+main section {
+    animation: frombottom .4s backwards;
+}
+main section:nth-child(1) {
+    animation-delay: 0;
+}
+main section:nth-child(2) {
+    animation-delay: .2s;
+}
+main section:nth-child(3) {
+    animation-delay: .4s;
+}
+
+@keyframes fromtop {
+        from {
+        opacity: 0;
+        transform: translatey(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translatex(0)
+    }
+}
+
+@keyframes frombottom {
+      from {
+        opacity: 0;
+        transform: translatex(-30px);
+    }
+
+        to {
+            opacity: 1;
+            transform: translatex(0)
+        }
+}
