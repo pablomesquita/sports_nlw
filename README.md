@@ -3,7 +3,7 @@
 ## Projeto
 ![image](https://user-images.githubusercontent.com/92414667/190921289-8b54404c-d47a-4804-ab13-2d897d69620d.png)
 
-- https://pablomesquita.github.io/sports_nlw.github.io/
+- https://pablomesquita.github.io/sports_nlw/
 
 ## Principais Tecnologias utilizadas
 
