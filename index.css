@@ -24,6 +24,24 @@ body * {
 header {
     text-align: center;
     margin-top: 32px;
+   
+  
+}
+header div {
+   width: 110px;
+   margin: auto; 
+   border-radius: 999px;
+    background: linear-gradient(90deg, #9572fc 0%, #43E7AD);
+    display: flex;
+    padding: 4px;
+}
+header div img {
+    width: 120px;
+    height: 100px;
+   
+    border-radius: 999px;
+   
+  
 }
 
 main {
