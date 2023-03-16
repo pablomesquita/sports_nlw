@@ -38,7 +38,7 @@ header div {
 header div img {
     width: 120px;
     height: 100px;
-   
+   object-fit: cover;
     border-radius: 999px;
    
   
